@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color_background_display"
+    android:background="@color/color_gray_display"
     tools:context=".DisplayFragment">
 
     <androidx.constraintlayout.widget.Guideline
@@ -23,7 +23,7 @@
 
     <TextView
         android:id="@+id/text_three"
-        style="@style/TextView12"
+        style="@style/TextDisplayOne"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:autoSizeTextType="uniform"
@@ -34,7 +34,7 @@
 
     <TextView
         android:id="@+id/text_two"
-        style="@style/TextView12"
+        style="@style/TextDisplayOne"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:autoSizeTextType="uniform"
@@ -47,7 +47,7 @@
 
     <TextView
         android:id="@+id/text_one"
-        style="@style/TextView3"
+        style="@style/TextDisplayThree"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:autoSizeTextType="uniform"

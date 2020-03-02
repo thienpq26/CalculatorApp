@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity(), OnFragmentKeyboardListener {
 
     override fun sendMessage(message: String, type: Boolean) {
         val manage = supportFragmentManager
-        val fragmentDisplay = manage.findFragmentById(R.id.fragment_display) as DisplayFragment
+        val fragmentDisplay = manage.findFragmentById(R.id.fragmentDisplay) as DisplayFragment
         fragmentDisplay.setTextDisplay(message, type)
     }
 
@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity(), OnFragmentKeyboardListener {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val manage = supportFragmentManager
-        val fragmentDisplay = manage.findFragmentById(R.id.fragment_display) as DisplayFragment
+        val fragmentDisplay = manage.findFragmentById(R.id.fragmentDisplay) as DisplayFragment
         when (item.itemId) {
             R.id.menu_clear -> fragmentDisplay.setAC()
             R.id.menu_save -> fragmentDisplay.saveResult()

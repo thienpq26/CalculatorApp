@@ -26,4 +26,6 @@
     <string name="title_0">0</string>
     <string name="title_dot">.</string>
     <string name="title_result">=</string>
+    <string name="title_clear">Clear</string>
+    <string name="title_save_last_result">Save Last Result</string>
 </resources>

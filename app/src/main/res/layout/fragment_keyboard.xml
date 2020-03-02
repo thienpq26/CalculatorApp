@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#645B5B"
+    android:background="@color/color_gray_display"
     tools:context=".KeyboardFragment">
 
     <Button
         android:id="@+id/button_num7"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_7"
@@ -20,7 +20,7 @@
 
     <Button
         android:id="@+id/button_num4"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_4"
@@ -31,7 +31,7 @@
 
     <Button
         android:id="@+id/button_num1"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_1"
@@ -42,7 +42,7 @@
 
     <Button
         android:id="@+id/button_num6"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_6"
@@ -53,7 +53,7 @@
 
     <Button
         android:id="@+id/button_num3"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_3"
@@ -64,7 +64,7 @@
 
     <Button
         android:id="@+id/button_sin"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_sin"
@@ -75,7 +75,7 @@
 
     <Button
         android:id="@+id/button_sub"
-        style="@style/ButtonType2"
+        style="@style/ButtonOperators"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_sub"
@@ -86,7 +86,7 @@
 
     <Button
         android:id="@+id/button_num2"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_2"
@@ -97,7 +97,7 @@
 
     <Button
         android:id="@+id/button_cos"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_cos"
@@ -108,7 +108,7 @@
 
     <Button
         android:id="@+id/button_sum"
-        style="@style/ButtonType2"
+        style="@style/ButtonOperators"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_sum"
@@ -168,7 +168,7 @@
 
     <Button
         android:id="@+id/button_num0"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_0"
@@ -179,7 +179,7 @@
 
     <Button
         android:id="@+id/button_dot"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_dot"
@@ -190,7 +190,7 @@
 
     <Button
         android:id="@+id/button_result"
-        style="@style/ButtonType2"
+        style="@style/ButtonOperators"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_result"
@@ -201,7 +201,7 @@
 
     <Button
         android:id="@+id/button_backspace"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_backspace"
@@ -212,7 +212,7 @@
 
     <Button
         android:id="@+id/button_left"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_left"
@@ -223,7 +223,7 @@
 
     <Button
         android:id="@+id/button_right"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_right"
@@ -234,7 +234,7 @@
 
     <Button
         android:id="@+id/button_div"
-        style="@style/ButtonType2"
+        style="@style/ButtonOperators"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_div"
@@ -245,7 +245,7 @@
 
     <Button
         android:id="@+id/button_num8"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_8"
@@ -256,7 +256,7 @@
 
     <Button
         android:id="@+id/button_num9"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_9"
@@ -267,7 +267,7 @@
 
     <Button
         android:id="@+id/button_percent"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_percent"
@@ -278,7 +278,7 @@
 
     <Button
         android:id="@+id/button_mul"
-        style="@style/ButtonType2"
+        style="@style/ButtonOperators"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_mul"
@@ -289,7 +289,7 @@
 
     <Button
         android:id="@+id/button_num5"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_5"
@@ -307,7 +307,7 @@
 
     <Button
         android:id="@+id/button_ac"
-        style="@style/ButtonType1"
+        style="@style/ButtonNumber"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/title_ac"

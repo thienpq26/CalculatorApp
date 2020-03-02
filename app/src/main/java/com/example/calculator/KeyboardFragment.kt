@@ -65,4 +65,3 @@ class KeyboardFragment : Fragment() {
         listener = null
     }
 }
-

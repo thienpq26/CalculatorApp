@@ -14,7 +14,7 @@
         app:layout_constraintGuide_percent="0.3" />
 
     <fragment
-        android:id="@+id/fragment_display"
+        android:id="@+id/fragmentDisplay"
         android:name="com.example.calculator.DisplayFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <fragment
-        android:id="@+id/fragment_keyboard"
+        android:id="@+id/fragmentKeyboard"
         android:name="com.example.calculator.KeyboardFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"

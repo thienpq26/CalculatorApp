@@ -28,7 +28,7 @@ class DisplayFragment : Fragment() {
         val sharedPreferences =
             activity!!.getSharedPreferences("data_result", Context.MODE_PRIVATE)
         var result = sharedPreferences.getString("result", null)
-        if (result != null) {
+        if (!result.isNullOrEmpty()) {
             text_one.text = result
         }
     }
@@ -76,8 +76,10 @@ class DisplayFragment : Fragment() {
                         text_one.append(message)
                     } else if (message.compareTo(")") == 0) {
                         text_one.append(message)
-                    } else if (text_one.text.toString().compareTo("/") == 0 || text_one.text.toString().compareTo("*") == 0 ||
-                        text_one.text.toString().compareTo("-") == 0 || text_one.text.toString().compareTo("+") == 0) {
+                    } else if (text_one.text.toString().compareTo("/") == 0 ||
+                        text_one.text.toString().compareTo("*") == 0 ||
+                        text_one.text.toString().compareTo("-") == 0 ||
+                        text_one.text.toString().compareTo("+") == 0) {
                         text_one.append(message)
                     } else {
                         text_three.text = ""
