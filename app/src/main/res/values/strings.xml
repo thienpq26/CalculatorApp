@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">Calculator</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_ac">AC</string>
+    <string name="title_backspace">+/-</string>
+    <string name="title_left">(</string>
+    <string name="title_right">)</string>
+    <string name="title_div">/</string>
+    <string name="title_mul">X</string>
+    <string name="title_percent">%</string>
+    <string name="title_9">9</string>
+    <string name="title_8">8</string>
+    <string name="title_7">7</string>
+    <string name="title_4">4</string>
+    <string name="title_5">5</string>
+    <string name="title_6">6</string>
+    <string name="title_1">1</string>
+    <string name="title_2">2</string>
+    <string name="title_3">3</string>
+    <string name="title_sin">sin</string>
+    <string name="title_sub">-</string>
+    <string name="title_sum">+</string>
+    <string name="title_cos">cos</string>
+    <string name="title_0">0</string>
+    <string name="title_dot">.</string>
+    <string name="title_result">=</string>
 </resources>

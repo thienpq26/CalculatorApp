@@ -8,4 +8,36 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TextView12" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">@dimen/sp_80</item>
+        <item name="android:paddingRight">@dimen/dp_20</item>
+        <item name="android:gravity">bottom|right</item>
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+    <style name="TextView3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">@dimen/sp_100</item>
+        <item name="android:paddingRight">@dimen/dp_20</item>
+        <item name="android:gravity">bottom|right</item>
+        <item name="android:textColor">@color/color_white</item>
+    </style>
+
+    <style name="ButtonType1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">@dimen/sp_30</item>
+        <item name="android:background">@color/color_background_button_number</item>
+        <item name="android:layout_marginStart">@dimen/dp_1</item>
+        <item name="android:layout_marginTop">@dimen/dp_1</item>
+        <item name="android:layout_marginEnd">@dimen/dp_1</item>
+        <item name="android:layout_marginBottom">@dimen/dp_1</item>
+    </style>
+
+    <style name="ButtonType2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">@dimen/sp_30</item>
+        <item name="android:background">@color/color_background_button_operator</item>
+        <item name="android:layout_marginStart">@dimen/dp_1</item>
+        <item name="android:layout_marginTop">@dimen/dp_1</item>
+        <item name="android:layout_marginEnd">@dimen/dp_1</item>
+        <item name="android:layout_marginBottom">@dimen/dp_1</item>
+    </style>
+
 </resources>
